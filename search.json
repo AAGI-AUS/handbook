@@ -1,0 +1,149 @@
+[
+  {
+    "objectID": "packages/asreml.html",
+    "href": "packages/asreml.html",
+    "title": "asreml",
+    "section": "",
+    "text": "ASReml-R is a commercial package from VSN International (VSNi) for fitting linear mixed models with residual maximum likelihood (REML). wgaim and asremlPlus both build on it."
+  },
+  {
+    "objectID": "packages/asreml.html#documentation",
+    "href": "packages/asreml.html#documentation",
+    "title": "asreml",
+    "section": "Documentation",
+    "text": "Documentation\n\n\nASReml-R Reference Manual, version 4.2 (PDF)\nReference manuals and other docs (ASReml Knowledge Base)\nASReml-R product page (VSNi)"
+  },
+  {
+    "objectID": "packages/asreml.html#install",
+    "href": "packages/asreml.html#install",
+    "title": "asreml",
+    "section": "Install",
+    "text": "Install\nDownload the installer for your platform from VSNi and activate it with your licence, following the installation guide in the knowledge base."
+  },
+  {
+    "objectID": "packages/asreml.html#cite",
+    "href": "packages/asreml.html#cite",
+    "title": "asreml",
+    "section": "Cite",
+    "text": "Cite\ncitation(\"asreml\")"
+  },
+  {
+    "objectID": "packages/asremlplus.html",
+    "href": "packages/asremlplus.html",
+    "title": "asremlPlus",
+    "section": "",
+    "text": "Helps automate choosing which terms to include in mixed models fitted with asreml, following the hierarchy (marginality) principle. It can also fit and compare two-dimensional spatial models, and keeps a history of the sequence of models fitted. It also computes and plots functions, contrasts and differences of predictions from any model-fitting function.\nAuthor: Chris Brien"
+  },
+  {
+    "objectID": "packages/asremlplus.html#documentation",
+    "href": "packages/asremlplus.html#documentation",
+    "title": "asremlPlus",
+    "section": "Documentation",
+    "text": "Documentation\n\n\nUser manual (PDF)\nReference manual (HTML)\nCRAN page\nAuthor’s R packages page\nSource code on GitHub\n\n\n\nWorked examples\n\n\nWheat: spatial models\nWheat: analysis\nWheat: information criteria\nLadybird: estimated marginal means with asreml\nLadybird: estimated marginal means with lm"
+  },
+  {
+    "objectID": "packages/asremlplus.html#install",
+    "href": "packages/asremlplus.html#install",
+    "title": "asremlPlus",
+    "section": "Install",
+    "text": "Install\ninstall.packages(\"asremlPlus\")\nModel fitting needs a licensed copy of asreml."
+  },
+  {
+    "objectID": "packages/asremlplus.html#cite",
+    "href": "packages/asremlplus.html#cite",
+    "title": "asremlPlus",
+    "section": "Cite",
+    "text": "Cite\ncitation(\"asremlPlus\")"
+  },
+  {
+    "objectID": "packages/asmap.html",
+    "href": "packages/asmap.html",
+    "title": "ASMap",
+    "section": "",
+    "text": "Accurate and speedy linkage map construction, manipulation and diagnosis for Doubled Haploid, Backcross and Recombinant Inbred R/qtl objects. Map clustering and optimal marker ordering use MSTmap (Wu et al., 2008).\nAuthors: Julian Taylor, David Butler"
+  },
+  {
+    "objectID": "packages/asmap.html#documentation",
+    "href": "packages/asmap.html#documentation",
+    "title": "ASMap",
+    "section": "Documentation",
+    "text": "Documentation\n\n\nVignette (PDF)\nPaper: R Package ASMap: Efficient Genetic Linkage Map Construction and Diagnosis\nReference manual (HTML)\nReference manual (PDF)\nCRAN page\nSource code and issues on GitHub"
+  },
+  {
+    "objectID": "packages/asmap.html#install",
+    "href": "packages/asmap.html#install",
+    "title": "ASMap",
+    "section": "Install",
+    "text": "Install\ninstall.packages(\"ASMap\")"
+  },
+  {
+    "objectID": "packages/asmap.html#cite",
+    "href": "packages/asmap.html#cite",
+    "title": "ASMap",
+    "section": "Cite",
+    "text": "Cite\n\nTaylor J, Butler D (2017). “R Package ASMap: Efficient Genetic Linkage Map Construction and Diagnosis.” Journal of Statistical Software, 79(6), 1–29. doi:10.18637/jss.v079.i06"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Handbook",
+    "section": "",
+    "text": "Pick a package to see where its documentation lives, how to install it, and how to cite it.\n\n\n01\n\nwgaim\nWhole genome average interval mapping for QTL detection and estimation using ASReml-R.\n\n\n\n02\n\nASMap\nFast linkage map construction and diagnosis using the MSTmap algorithm. Includes the vignette and the paper in the Journal of Statistical Software.\n\n\n\n03\n\nasreml\nASReml-R from VSNi: linear mixed models fitted by REML. Commercial and licensed.\n\n\n\n04\n\nasremlPlus\nAugments ASReml-R with model selection, spatial model fitting and exploration of prediction differences.\n\n\n\n05\n\ndae\nFunctions for the design and ANOVA of experiments, including randomisation and assessment of designs."
+  },
+  {
+    "objectID": "packages/wgaim.html",
+    "href": "packages/wgaim.html",
+    "title": "wgaim",
+    "section": "",
+    "text": "A computationally efficient whole genome approach to detecting and estimating significant QTL in linkage maps, using the linear mixed modelling functionality of ASReml-R.\nAuthors: Julian Taylor, Ari Verbyla"
+  },
+  {
+    "objectID": "packages/wgaim.html#documentation",
+    "href": "packages/wgaim.html#documentation",
+    "title": "wgaim",
+    "section": "Documentation",
+    "text": "Documentation\n\n\nVignette: Introduction to wgaim\nReference manual (HTML)\nReference manual (PDF)\nCRAN page\nSource code and issues on GitHub"
+  },
+  {
+    "objectID": "packages/wgaim.html#install",
+    "href": "packages/wgaim.html#install",
+    "title": "wgaim",
+    "section": "Install",
+    "text": "Install\ninstall.packages(\"wgaim\")\nwgaim fits its models with ASReml-R, so you also need a licensed copy of asreml."
+  },
+  {
+    "objectID": "packages/wgaim.html#cite",
+    "href": "packages/wgaim.html#cite",
+    "title": "wgaim",
+    "section": "Cite",
+    "text": "Cite\ncitation(\"wgaim\")"
+  },
+  {
+    "objectID": "packages/dae.html",
+    "href": "packages/dae.html",
+    "title": "dae",
+    "section": "",
+    "text": "Covers data, factor manipulation, design, ANOVA, matrix, projector and canonical efficiency functions. The design functions randomise and assess designs. The ANOVA functions extract information from aov fits that use Error().\nAuthor: Chris Brien"
+  },
+  {
+    "objectID": "packages/dae.html#documentation",
+    "href": "packages/dae.html#documentation",
+    "title": "dae",
+    "section": "Documentation",
+    "text": "Documentation\n\n\nUser manual (PDF)\nDesign notes: randomising and assessing designs (PDF)\nReference manual (HTML)\nCRAN page\nAuthor’s R packages page\nSource code and issues on GitHub"
+  },
+  {
+    "objectID": "packages/dae.html#install",
+    "href": "packages/dae.html#install",
+    "title": "dae",
+    "section": "Install",
+    "text": "Install\ninstall.packages(\"dae\")"
+  },
+  {
+    "objectID": "packages/dae.html#cite",
+    "href": "packages/dae.html#cite",
+    "title": "dae",
+    "section": "Cite",
+    "text": "Cite\ncitation(\"dae\")"
+  }
+]
