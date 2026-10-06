@@ -1,0 +1,28 @@
+---
+title: "asreml"
+subtitle: "ASReml-R: linear mixed models fitted by REML"
+---
+
+ASReml-R is a commercial package from VSN International (VSNi) for fitting linear mixed models with residual maximum likelihood (REML). wgaim and asremlPlus both build on it.
+
+::: {.callout-note}
+asreml is not on CRAN. You need a licence from VSNi to install and run it.
+:::
+
+## Documentation
+
+::: {.resource-list}
+- [ASReml-R Reference Manual, version 4.2 (PDF)](https://asreml.kb.vsni.co.uk/wp-content/uploads/sites/3/ASReml-R-Reference-Manual-4.2.pdf)
+- [Reference manuals and other docs (ASReml Knowledge Base)](https://asreml.kb.vsni.co.uk/knowledge-base/asreml_r_documentation/)
+- [ASReml-R product page (VSNi)](https://vsni.co.uk/software/asreml-r/)
+:::
+
+## Install
+
+Download the installer for your platform from VSNi and activate it with your licence, following the installation guide in the knowledge base.
+
+## Cite
+
+```r
+citation("asreml")
+```

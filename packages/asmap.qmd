@@ -1,0 +1,29 @@
+---
+title: "ASMap"
+subtitle: "Linkage Map Construction using the MSTmap Algorithm"
+---
+
+Accurate and speedy linkage map construction, manipulation and diagnosis for Doubled Haploid, Backcross and Recombinant Inbred R/qtl objects. Map clustering and optimal marker ordering use MSTmap (Wu et al., 2008).
+
+**Authors:** Julian Taylor, David Butler
+
+## Documentation
+
+::: {.resource-list}
+- [Vignette (PDF)](https://cran.r-project.org/web/packages/ASMap/vignettes/asmapvignette.pdf)
+- [Paper: R Package ASMap: Efficient Genetic Linkage Map Construction and Diagnosis](https://doi.org/10.18637/jss.v079.i06)
+- [Reference manual (HTML)](https://cran.r-project.org/web/packages/ASMap/refman/ASMap.html)
+- [Reference manual (PDF)](https://cran.r-project.org/web/packages/ASMap/ASMap.pdf)
+- [CRAN page](https://CRAN.R-project.org/package=ASMap)
+- [Source code and issues on GitHub](https://github.com/DrJ001/ASMap)
+:::
+
+## Install
+
+```r
+install.packages("ASMap")
+```
+
+## Cite
+
+> Taylor J, Butler D (2017). "R Package ASMap: Efficient Genetic Linkage Map Construction and Diagnosis." *Journal of Statistical Software*, 79(6), 1–29. [doi:10.18637/jss.v079.i06](https://doi.org/10.18637/jss.v079.i06)

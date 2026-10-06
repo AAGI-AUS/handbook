@@ -1,0 +1,242 @@
+/*-- scss:defaults --*/
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Source+Sans+3:wght@400;600&family=Source+Code+Pro:wght@400;500&display=swap");
+
+$ink: #16201a;
+$body-text: #313a34;
+$muted: #5c665f;
+$rule: #d6ddd8;
+$surface: #f3f6f3;
+
+// Deep green for large surfaces, a richer green for accents and links
+$forest: #12301f;
+$green: #1e6b47;
+$green-light: #7fc29b;
+
+$body-bg: #ffffff;
+$body-color: $body-text;
+$headings-color: $ink;
+$link-color: $green;
+$primary: $green;
+$border-color: $rule;
+$text-muted: $muted;
+
+$font-family-sans-serif: "Source Sans 3", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+$font-family-monospace: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, monospace;
+$headings-font-family: "Source Serif 4", Georgia, "Times New Roman", serif;
+$font-size-base: 1.0625rem;
+$line-height-base: 1.65;
+$headings-font-weight: 700;
+
+$code-color: $ink;
+$code-bg: $surface;
+$code-block-bg: $surface;
+
+$navbar-bg: $forest;
+$navbar-fg: rgba(#fff, 0.75);
+$navbar-hl: #fff;
+$footer-bg: #ffffff;
+
+$title-banner-bg: $forest;
+$title-banner-color: #fff;
+
+$callout-color-note: $green;
+$callout-color-tip: $green;
+
+/*-- scss:rules --*/
+
+::selection {
+  background: rgba($green, 0.2);
+}
+
+a {
+  text-decoration: none;
+  &:hover { text-decoration: underline; text-underline-offset: 3px; }
+}
+
+// Navbar: continuous with the banner below it
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(#fff, 0.1);
+}
+
+.navbar-brand .navbar-title {
+  font-family: $headings-font-family;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar .nav-link {
+  font-size: 0.95rem;
+  &.active {
+    color: #fff !important;
+    box-shadow: inset 0 -2px 0 $green-light;
+  }
+}
+
+// Title banner: solid deep green, large serif title, classic double rule beneath
+.quarto-title-banner {
+  padding: 4rem 0 3.25rem;
+  margin-bottom: 1rem;
+  border-bottom: 6px double $green-light;
+
+  .title {
+    font-size: clamp(2.5rem, 6vw, 3.75rem);
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+
+  .subtitle {
+    margin-top: 1rem;
+    max-width: 38rem;
+    font-family: $headings-font-family;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    color: rgba(#fff, 0.78);
+  }
+}
+
+// Section headings: thin rule with a short heavy green segment on the left
+main h2 {
+  margin-top: 3rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.6rem;
+  border-bottom: none !important;
+  background:
+    linear-gradient($green, $green) left bottom / 3rem 3px no-repeat,
+    linear-gradient($rule, $rule) left bottom / 100% 1px no-repeat;
+}
+
+// Margin table of contents
+#toc-title {
+  font-family: $headings-font-family;
+  font-size: 0.95rem;
+  font-weight: 600;
+  font-style: italic;
+  color: $muted;
+}
+
+#TOC .nav-link.active,
+#TOC a.active {
+  color: $green !important;
+  border-left-color: $green !important;
+}
+
+// Code
+div.sourceCode {
+  background: $surface !important;
+  border: 1px solid $rule !important;
+  border-left: 3px solid $green !important;
+  border-radius: 0 !important;
+  pre { border: none !important; background: transparent !important; }
+}
+
+code:not(pre code) {
+  background: $surface;
+  color: $ink;
+  padding: 0.1em 0.3em;
+  font-size: 0.875em;
+}
+
+// Callouts, blockquotes, tables
+.callout {
+  border-radius: 0 !important;
+  box-shadow: none;
+}
+
+// Citations read like a journal reference
+blockquote {
+  padding: 0.25rem 0 0.25rem 1.25rem;
+  border-left: 3px solid $green;
+  font-family: $headings-font-family;
+  font-size: 1.05rem;
+  font-style: italic;
+  color: $body-text;
+
+  em { font-style: normal; }
+}
+
+.table thead th {
+  font-weight: 600;
+  color: $ink;
+  border-bottom: 2px solid $forest;
+}
+
+// Home page package cards
+.pkg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0;
+  margin-top: 2rem;
+  border-top: 3px solid $forest;
+}
+
+.pkg-card {
+  position: relative;
+  padding: 1.5rem 1.5rem 1.75rem 0;
+  border-bottom: 1px solid $rule;
+
+  &:hover h3 a { color: $green; }
+
+  h3 {
+    margin: 0.25rem 0 0.5rem;
+    font-size: 1.45rem;
+    a { color: $ink; transition: color 0.15s; }
+    a:hover { text-decoration: none; }
+    a::after { content: ""; position: absolute; inset: 0; } // whole card clickable
+  }
+
+  p {
+    margin-bottom: 0;
+    font-size: 0.975rem;
+    color: $muted;
+  }
+}
+
+.pkg-num {
+  display: block;
+  font-family: $headings-font-family;
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 1;
+  color: $green;
+}
+
+// Documentation links: a ruled list, each with a quiet arrow
+.resource-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.resource-list li {
+  margin: 0;
+  border-bottom: 1px solid $rule;
+}
+
+.resource-list li a {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  color: $ink;
+  font-weight: 600;
+
+  &::after { content: "→"; color: $green; }
+
+  &:hover { color: $green; }
+}
+
+// Search box
+.aa-DetachedSearchButton, #quarto-search .aa-Form {
+  border-radius: 0 !important;
+}
+
+.navbar #quarto-search .aa-DetachedSearchButton-icon svg,
+.navbar .bi-search {
+  color: rgba(#fff, 0.85) !important;
+}

@@ -1,0 +1,31 @@
+---
+title: "dae"
+subtitle: "Functions Useful in the Design and ANOVA of Experiments"
+---
+
+Covers data, factor manipulation, design, ANOVA, matrix, projector and canonical efficiency functions. The design functions randomise and assess designs. The ANOVA functions extract information from `aov` fits that use `Error()`.
+
+**Author:** Chris Brien
+
+## Documentation
+
+::: {.resource-list}
+- [User manual (PDF)](https://cran.r-project.org/web/packages/dae/vignettes/dae-manual.pdf)
+- [Design notes: randomising and assessing designs (PDF)](https://cran.r-project.org/web/packages/dae/vignettes/DesignNotes.pdf)
+- [Reference manual (HTML)](https://cran.r-project.org/web/packages/dae/refman/dae.html)
+- [CRAN page](https://CRAN.R-project.org/package=dae)
+- [Author's R packages page](http://chris.brien.name/rpackages/)
+- [Source code and issues on GitHub](https://github.com/briencj/dae)
+:::
+
+## Install
+
+```r
+install.packages("dae")
+```
+
+## Cite
+
+```r
+citation("dae")
+```

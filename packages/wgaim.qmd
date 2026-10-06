@@ -1,0 +1,32 @@
+---
+title: "wgaim"
+subtitle: "Whole Genome Average Interval Mapping for QTL Detection and Estimation using ASReml-R"
+---
+
+A computationally efficient whole genome approach to detecting and estimating significant QTL in linkage maps, using the linear mixed modelling functionality of ASReml-R.
+
+**Authors:** Julian Taylor, Ari Verbyla
+
+## Documentation
+
+::: {.resource-list}
+- [Vignette: Introduction to wgaim](https://cran.r-project.org/web/packages/wgaim/vignettes/wgaim_intro.html)
+- [Reference manual (HTML)](https://cran.r-project.org/web/packages/wgaim/refman/wgaim.html)
+- [Reference manual (PDF)](https://cran.r-project.org/web/packages/wgaim/wgaim.pdf)
+- [CRAN page](https://CRAN.R-project.org/package=wgaim)
+- [Source code and issues on GitHub](https://github.com/DrJ001/wgaim)
+:::
+
+## Install
+
+```r
+install.packages("wgaim")
+```
+
+wgaim fits its models with ASReml-R, so you also need a licensed copy of [asreml](asreml.qmd).
+
+## Cite
+
+```r
+citation("wgaim")
+```

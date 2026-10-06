@@ -1,0 +1,51 @@
+---
+title: "Handbook"
+subtitle: "Manuals, vignettes and papers for the R packages we use, all in one place."
+toc: false
+---
+
+Pick a package to see where its documentation lives, how to install it, and how to cite it.
+
+::: {.pkg-grid}
+
+::: {.pkg-card}
+[01]{.pkg-num}
+
+### [wgaim](packages/wgaim.qmd)
+
+Whole genome average interval mapping for QTL detection and estimation using ASReml-R.
+:::
+
+::: {.pkg-card}
+[02]{.pkg-num}
+
+### [ASMap](packages/asmap.qmd)
+
+Fast linkage map construction and diagnosis using the MSTmap algorithm. Includes the vignette and the paper in the *Journal of Statistical Software*.
+:::
+
+::: {.pkg-card}
+[03]{.pkg-num}
+
+### [asreml](packages/asreml.qmd)
+
+ASReml-R from VSNi: linear mixed models fitted by REML. Commercial and licensed.
+:::
+
+::: {.pkg-card}
+[04]{.pkg-num}
+
+### [asremlPlus](packages/asremlplus.qmd)
+
+Augments ASReml-R with model selection, spatial model fitting and exploration of prediction differences.
+:::
+
+::: {.pkg-card}
+[05]{.pkg-num}
+
+### [dae](packages/dae.qmd)
+
+Functions for the design and ANOVA of experiments, including randomisation and assessment of designs.
+:::
+
+:::

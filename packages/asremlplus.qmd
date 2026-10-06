@@ -1,0 +1,42 @@
+---
+title: "asremlPlus"
+subtitle: "Augments ASReml-R in Fitting Mixed Models and Packages Generally in Exploring Prediction Differences"
+---
+
+Helps automate choosing which terms to include in mixed models fitted with asreml, following the hierarchy (marginality) principle. It can also fit and compare two-dimensional spatial models, and keeps a history of the sequence of models fitted. It also computes and plots functions, contrasts and differences of predictions from any model-fitting function.
+
+**Author:** Chris Brien
+
+## Documentation
+
+::: {.resource-list}
+- [User manual (PDF)](https://cran.r-project.org/web/packages/asremlPlus/vignettes/asremlPlus-manual.pdf)
+- [Reference manual (HTML)](https://cran.r-project.org/web/packages/asremlPlus/refman/asremlPlus.html)
+- [CRAN page](https://CRAN.R-project.org/package=asremlPlus)
+- [Author's R packages page](http://chris.brien.name/rpackages/)
+- [Source code on GitHub](https://github.com/briencj/asremlPlus)
+:::
+
+### Worked examples
+
+::: {.resource-list}
+- [Wheat: spatial models](https://cran.r-project.org/web/packages/asremlPlus/vignettes/WheatSpatialModels.pdf)
+- [Wheat: analysis](https://cran.r-project.org/web/packages/asremlPlus/vignettes/Wheat.analysis.pdf)
+- [Wheat: information criteria](https://cran.r-project.org/web/packages/asremlPlus/vignettes/Wheat.infoCriteria.pdf)
+- [Ladybird: estimated marginal means with asreml](https://cran.r-project.org/web/packages/asremlPlus/vignettes/LadybirdEMMs.asreml.pdf)
+- [Ladybird: estimated marginal means with lm](https://cran.r-project.org/web/packages/asremlPlus/vignettes/LadybirdEMMs.lm.pdf)
+:::
+
+## Install
+
+```r
+install.packages("asremlPlus")
+```
+
+Model fitting needs a licensed copy of [asreml](asreml.qmd).
+
+## Cite
+
+```r
+citation("asremlPlus")
+```

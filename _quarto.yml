@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Handbook"
+  description: "Support hub for wgaim, ASMap, ASReml-R, asremlPlus and dae."
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "wgaim"
+        href: packages/wgaim.qmd
+      - text: "ASMap"
+        href: packages/asmap.qmd
+      - text: "asreml"
+        href: packages/asreml.qmd
+      - text: "asremlPlus"
+        href: packages/asremlplus.qmd
+      - text: "dae"
+        href: packages/dae.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - theme.scss
+    highlight-style: github
+    toc: true
+    title-block-banner: true
